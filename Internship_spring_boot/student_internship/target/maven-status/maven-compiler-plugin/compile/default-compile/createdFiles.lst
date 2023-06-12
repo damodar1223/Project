@@ -1,0 +1,5 @@
+com\example\student_internship\Controller\InternshipController.class
+com\example\student_internship\model\Coordinator.class
+com\example\student_internship\model\Student.class
+com\example\student_internship\repository\InternshipRepository.class
+com\example\student_internship\StudentInternshipApplication.class
