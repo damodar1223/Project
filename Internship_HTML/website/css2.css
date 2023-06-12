@@ -1,0 +1,225 @@
+body{
+  background-color: rgb(243, 242, 240);
+  padding: 10px;
+}
+
+  
+.container {
+  width: 500px; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%; 
+    padding: 0 10px; 
+  }
+}
+header{
+  position: fixed sticky;
+  top:0%;
+  margin-right: 25%;
+  width: 100%;
+  background-color: #9cd29e;
+}
+  .custom-logo {
+    max-height: 100px;
+    width: 80%;
+   margin-left: 10%;   
+}
+  
+  h1 {
+    color: #1e1616;
+    font-size: 28px;
+    margin-top: 25px;
+    padding-top: 105px;
+
+  }
+  #GFG{
+    text-decoration: none;
+  }
+  .password{
+    padding-bottom: 20px;
+  }
+  .staff{
+    margin-top: 1%;
+  }
+  h2 {
+    color: #1e1616;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-top: 10px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: scrollText 20s linear infinite; 
+    animation-play-state: 1s;
+    position: initial;
+
+
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+  
+  
+  form {
+    margin-top: 0px;
+    position: relative;
+     
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #171616;
+    font-size: 23px;
+  }
+  
+  input[type="text"],
+  input[type="password"], 
+  input[type="email"] 
+   {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus{
+    border-color: #555;
+  }
+  button[type="forget"],
+  button[type="signup"] {
+    margin-bottom: 0.55%;
+    margin-left: 0%;
+    width: 67px;
+    height: 25px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  button[type="login"],
+  button[type="signup"],
+  button[type="sign up"]{
+    width: 100px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button[type="login"]:hover,
+  button[type="sign up"]:hover,
+  button[type="forget"]:hover {
+    background-color: #c04444;
+    transform: scale(0.95);
+  }
+  
+  .p {
+    margin-top: 5px;
+    max-width: 410px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 45px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+  }
+ 
+  details>summary{
+    list-style: none;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    margin-top: 1%;
+    padding: 0;
+    display: flex;
+    width: 99.50%;
+    height: 25px;
+    background-color: #cce8ec;
+    border-radius: 40px;
+    font-size: 27px;
+    position: relative sticky;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+
+    
+  }
+  
+  .navbar summary li {
+    margin: 0 10px;
+  
+    
+  }
+  
+  .navbar  a {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 40px;
+    color: #333;
+    transition: float 0.3s ease;
+  }
+  
+  .navbar a.active,
+  .navbar a:hover {
+    background-color: #333;
+    color: #fff;
+    float: left;
+    
+  }
+  
+  
+  
+  .navbar a:hover {
+    background-color: #c4eef4;
+    color: rgb(179, 51, 51);
+    float: left;
+  }
+  @media only screen and (max-width: 200px){
+    .navbar{
+      float: left;
+    }
+  }
+
+  
+  .l {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /*  */
+  
